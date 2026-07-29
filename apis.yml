@@ -1,8 +1,26 @@
 aid: its-good
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/its-good.png
 name: Its Good
-description: Its Good is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  It's Good is a social dining recommendation app that reimagines how people discover
+  restaurants and bars by surfacing recommendations from trusted friends rather than
+  crowdsourced reviews from strangers. Founded in 2023 and co-founded by Mike Rosenthal
+  (CEO) and musician John Legend, the iOS app lets people save the places they love,
+  organize their lists, and share personalized recommendations within a curated community
+  of people they know and admire. The company is backed by a seed investment from
+  Lightspeed Venture Partners. It's Good is a consumer mobile product and does not
+  currently publish a public API or developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/its-good/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Restaurants
+- Dining
+- Recommendations
+- Social
+- Food and Drink
+- Consumer
+- Mobile
+- Discovery
 apis: []
+common:
+- type: DomainSecurity
+  url: security/its-good-domain-security.yml
+- type: Website
+  url: https://itsgood.life
+- type: PrivacyPolicy
+  url: https://itsgood.life/privacy-policy
+- type: TermsOfService
+  url: https://itsgood.life/terms-of-service
+- type: SignUp
+  url: https://apps.apple.com/us/app/its-good/id1633324776
+- type: Instagram
+  url: https://instagram.com/itsgoodapp
+- type: TikTok
+  url: https://www.tiktok.com/@itsgoodapp
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
