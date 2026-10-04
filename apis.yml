@@ -48,7 +48,7 @@ tags:
 - Dining
 - Recommendations
 - Social
-- Food And Drink
+- Food and Beverage
 - Consumer
 - Mobile
 - Discovery
@@ -62,6 +62,7 @@ tags_raw:
 - Consumer
 - Mobile
 - Discovery
+- Food And Drink
 apis: []
 common:
 - type: DomainSecurity
